@@ -1,7 +1,7 @@
 (function (global, factory) {
     typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('@auth0/angular-jwt'), require('@angular/router'), require('@angular/platform-browser'), require('ngx-cookie-service'), require('@angular/core'), require('@angular/common/http'), require('rxjs'), require('rxjs/operators')) :
-    typeof define === 'function' && define.amd ? define('@gnx/auth', ['exports', '@auth0/angular-jwt', '@angular/router', '@angular/platform-browser', 'ngx-cookie-service', '@angular/core', '@angular/common/http', 'rxjs', 'rxjs/operators'], factory) :
-    (factory((global.gnx = global.gnx || {}, global.gnx.auth = {}),global.angularJwt,global.ng.router,global.ng.platformBrowser,global.i2,global.ng.core,global.ng.common.http,global.rxjs,global.rxjs.operators));
+    typeof define === 'function' && define.amd ? define('gnx-auth', ['exports', '@auth0/angular-jwt', '@angular/router', '@angular/platform-browser', 'ngx-cookie-service', '@angular/core', '@angular/common/http', 'rxjs', 'rxjs/operators'], factory) :
+    (factory((global['gnx-auth'] = {}),global.angularJwt,global.ng.router,global.ng.platformBrowser,global.i2,global.ng.core,global.ng.common.http,global.rxjs,global.rxjs.operators));
 }(this, (function (exports,angularJwt,i3,platformBrowser,i2,i0,i1,rxjs,operators) { 'use strict';
 
     /**
