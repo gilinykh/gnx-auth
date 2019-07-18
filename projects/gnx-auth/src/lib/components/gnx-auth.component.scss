@@ -1,0 +1,48 @@
+.auth-buttons {
+  display: inline-block;
+  margin-left: 15px;
+}
+
+.lang-button-active {
+  cursor: default;
+}
+
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  background-color: #2d2d2d;
+  color: #ededed;
+  a, a:hover, .btn {
+    color: #ededed;
+  }
+
+  .btn {
+    background-color: #95fedf;
+    border-color: #95fedf;
+    color: #2d2d2d;
+  }
+
+  .btn:hover {
+    background-color: #8CECCD;
+    border-color: #8CECCD;
+  }
+
+  .service-link {
+    font-size: larger;
+    font-weight: 600;
+  }
+}
+
+.header-left-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.header-right-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
